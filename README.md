@@ -1,17 +1,13 @@
-# Supply chain & data auditing
+# Blockchain Supply Chain Solution
 
-This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
+This repository contains an Ethereum DApp that demonstrates a Supply Chain flow from a farmer to a consumer. The user story is similar to any commonly used supply chain process. A farmer produces and sells items which are bought, received and sold by the distributor. The retailer buys from the distributor and sells to teh consumer.
 
-The DApp User Interface when running should look like...
+### Versions
+Compiler: solc: 0.5.0+commit.1d4f565a.Emscripten.clang
 
-![truffle test](images/ftc_product_overview.png)
+Truffle: v5.0.14
 
-![truffle test](images/ftc_farm_details.png)
-
-![truffle test](images/ftc_product_details.png)
-
-![truffle test](images/ftc_transaction_history.png)
-
+Node: v11.3.0
 
 ## Getting Started
 
@@ -32,13 +28,12 @@ A step by step series of examples that tell you have to get a development env ru
 Clone this repository:
 
 ```
-git clone https://github.com/udacity/nd1309/tree/master/course-5/project-6
+git clone https://github.com/Ezeebube5/blockchain-supply-chain-solution.git
 ```
 
-Change directory to ```project-6``` folder and install all requisite npm packages (as listed in ```package.json```):
+Install all requisite npm packages (as listed in ```package.json```):
 
 ```
-cd project-6
 npm install
 ```
 
@@ -48,19 +43,11 @@ Launch Ganache:
 ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster"
 ```
 
-Your terminal should look something like this:
-
-![truffle test](images/ganache-cli.png)
-
 In a separate terminal window, Compile smart contracts:
 
 ```
 truffle compile
 ```
-
-Your terminal should look something like this:
-
-![truffle test](images/truffle_compile.png)
 
 This will create the smart contract artifacts in folder ```build\contracts```.
 
@@ -70,9 +57,6 @@ Migrate smart contracts to the locally running blockchain, ganache-cli:
 truffle migrate
 ```
 
-Your terminal should look something like this:
-
-![truffle test](images/truffle_migrate.png)
 
 Test smart contracts:
 
@@ -82,7 +66,6 @@ truffle test
 
 All 10 tests should pass.
 
-![truffle test](images/truffle_test.png)
 
 In a separate terminal window, launch the DApp:
 
@@ -98,12 +81,8 @@ to make the web faster, safer, and more open.
 * [Truffle Framework](http://truffleframework.com/) - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
 
 
-## Authors
-
-See also the list of [contributors](https://github.com/your/project/contributors.md) who participated in this project.
-
 ## Acknowledgments
-
+* Udacity: Provided starter code and lesson examples.
 * Solidity
 * Ganache-cli
 * Truffle

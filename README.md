@@ -5,7 +5,10 @@ This repository contains an Ethereum DApp that demonstrates a Supply Chain flow 
 ### Versions
 Compiler: solc: 0.5.0+commit.1d4f565a.Emscripten.clang
 
-Truffle: v5.0.14
+ganache-cli: 6.9.1
+
+
+Truffle: v5.0.16
 
 Node: v11.3.0
 

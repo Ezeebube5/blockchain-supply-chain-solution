@@ -9,7 +9,7 @@ module.exports = {
     },
     rinkeby: {
       provider: function() {
-          return new HDWalletProvider("base pill sample dizzy ginger mix stage pigeon woman dumb spray glimpse", "https://rinkeby.infura.io/v3/69ebae14282443dca357800a384063ea")
+          return new HDWalletProvider("", "https://rinkeby.infura.io/v3/69ebae14282443dca357800a384063ea")
         },
         gas: 6721975,
         gasPrice: 20000000000,
